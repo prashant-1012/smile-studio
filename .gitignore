@@ -43,6 +43,10 @@ next-env.d.ts
 # project docs (portfolio internal notes — not for repo)
 /docs
 
+# Claude / AI agent files
+CLAUDE.md
+agents.md
+
 # IDE
 .vscode/
 .idea/

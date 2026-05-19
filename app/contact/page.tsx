@@ -103,7 +103,7 @@ export default function ContactPage() {
                   </div>
                   <div className="space-y-1.5">
                     <label className="text-sm font-medium text-foreground">Subject *</label>
-                    <Select value={form.subject} onValueChange={(v) => setForm({ ...form, subject: v })}>
+                    <Select value={form.subject} onValueChange={(v) => setForm({ ...form, subject: v ?? "" })}>
                       <SelectTrigger className="bg-background border-border">
                         <SelectValue placeholder="Select a topic" />
                       </SelectTrigger>
