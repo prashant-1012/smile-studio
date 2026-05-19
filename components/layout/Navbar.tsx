@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useTheme } from "next-themes";
 import { Menu, X, Sun, Moon } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -20,6 +21,7 @@ export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const { theme, setTheme, resolvedTheme } = useTheme();
+  const pathname = usePathname();
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -73,7 +75,12 @@ export function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="px-3 py-2 text-sm font-medium text-muted-foreground hover:text-primary transition-colors rounded-lg hover:bg-primary/5"
+                className={cn(
+                  "px-3 py-2 text-sm font-medium transition-colors rounded-lg hover:bg-primary/5",
+                  pathname === link.href
+                    ? "text-primary bg-primary/5 font-semibold"
+                    : "text-muted-foreground hover:text-primary"
+                )}
               >
                 {link.label}
               </Link>
@@ -154,7 +161,12 @@ export function Navbar() {
               key={link.href}
               href={link.href}
               onClick={() => setOpen(false)}
-              className="px-4 py-3 rounded-lg text-sm font-medium text-foreground hover:text-primary hover:bg-primary/8 transition-colors"
+              className={cn(
+                "px-4 py-3 rounded-lg text-sm font-medium transition-colors hover:bg-primary/8",
+                pathname === link.href
+                  ? "text-primary bg-primary/8 font-semibold"
+                  : "text-foreground hover:text-primary"
+              )}
             >
               {link.label}
             </Link>
