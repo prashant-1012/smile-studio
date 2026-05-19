@@ -429,7 +429,7 @@ export default function HomePage() {
             <Button asChild size="lg" className="bg-white text-primary hover:bg-teal-50 px-8 text-base font-semibold shadow-xl">
               <Link href="/book">Book Appointment <ArrowRight size={18} className="ml-2" /></Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="px-8 text-base border-white/40 text-white hover:bg-white/10">
+            <Button asChild size="lg" variant="outline" className="px-8 text-base border-white/40 !text-white !bg-transparent hover:!bg-white/10">
               <Link href="/contact">Contact Us</Link>
             </Button>
           </div>
