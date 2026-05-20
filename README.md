@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Smile Studio — Premium Dental Care Website
+
+A modern, responsive dental clinic website built with **Next.js 15 (App Router)**, **TypeScript**, and **Tailwind CSS**. Designed for Smile Studio, a premium private dental practice in Koramangala, Bangalore, led by Dr. Aanya Sharma.
+
+**Live URL:** [https://smile-care-studio.vercel.app/](https://smile-care-studio.vercel.app/)
+
+---
+
+## Pages
+
+| Route | Description |
+|---|---|
+| `/` | Hero, stats bar, services preview, why-us, meet-the-doctor, testimonials, CTA |
+| `/services` | Full list of 10+ dental treatments with duration and pricing |
+| `/about` | Clinic story, values, and certifications |
+| `/team` | Doctor and staff profiles |
+| `/testimonials` | Patient reviews |
+| `/book` | Appointment booking form with date picker |
+| `/contact` | Contact form, address, and clinic hours |
+
+---
+
+## Tech Stack
+
+- **Framework:** Next.js 15 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS v4
+- **UI Components:** shadcn/ui (Button, Badge, Card, Input, Select, Calendar, Sonner)
+- **Icons:** Lucide React
+- **Theming:** `next-themes` — light/dark/system with no flash on load
+- **Fonts:** Geist (via `next/font`)
+- **Deployment:** Vercel
+
+---
+
+## Features
+
+- Scroll-triggered reveal animations via `IntersectionObserver`
+- Animated counters on stat cards (1200+ patients, 12 years, etc.)
+- Dark mode support with system preference detection
+- Responsive layout across mobile, tablet, and desktop
+- Toast notifications via Sonner
+- Appointment booking with calendar date picker
+- SEO-ready metadata with per-page `<title>` via layout templates
+
+---
+
+## Project Structure
+
+```
+app/
+├── layout.tsx          # Root layout — Navbar, Footer, ThemeProvider, Toaster
+├── globals.css         # Global styles and CSS custom properties
+├── page.tsx            # Home page
+├── services/           # Services listing
+├── about/              # About the clinic
+├── team/               # Team page
+├── testimonials/       # Patient reviews
+├── book/               # Booking form
+└── contact/            # Contact page
+
+components/
+├── layout/
+│   ├── Navbar.tsx
+│   └── Footer.tsx
+├── providers/
+│   └── ThemeProvider.tsx
+└── ui/                 # shadcn/ui components
+```
+
+---
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site locally.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run build   # Production build
+npm run lint    # ESLint
+```
