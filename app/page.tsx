@@ -318,7 +318,7 @@ export default function HomePage() {
           <div className={cn("relative reveal-left", doctorReveal.visible && "in-view")}>
             <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-teal-900/15">
               <Image
-                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&q=80"
+                src="https://plus.unsplash.com/premium_photo-1661778976948-0cbf766dc0e8?w=600&q=80"
                 alt="Dr. Aanya Sharma"
                 width={600}
                 height={700}

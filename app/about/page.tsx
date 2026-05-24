@@ -109,7 +109,7 @@ export default function AboutPage() {
           <div className={cn("reveal-right", storyReveal.visible && "in-view")}>
             <div className="relative rounded-3xl overflow-hidden shadow-2xl shadow-teal-900/15">
               <Image
-                src="https://images.unsplash.com/photo-1629909615957-be38d48fbbe4?w=900&q=80"
+                src="https://images.unsplash.com/photo-1704455306251-b4634215d98f?w=900&q=80"
                 alt="Smile Studio clinic interior"
                 width={900}
                 height={600}

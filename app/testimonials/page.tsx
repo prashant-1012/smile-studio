@@ -32,6 +32,7 @@ const reviews = [
     date: "March 2025",
     text: "I had always been self-conscious about my smile, but Dr. Aanya changed everything. The whitening procedure was completely painless, and the results were stunning — three shades whiter in a single session! The clinic feels more like a luxury spa than a dental office. Absolutely worth every rupee.",
     highlight: "Three shades whiter in one session!",
+    avatar: "https://plus.unsplash.com/premium_photo-1689539137236-b68e436248de?w=80&q=80",
   },
   {
     name: "Meera Iyer",
@@ -40,6 +41,7 @@ const reviews = [
     date: "January 2025",
     text: "After losing a tooth in an accident, I was terrified about implants. Dr. Rohan walked me through every step with such patience. The implant looks and feels completely natural — I keep forgetting it's not my original tooth! Smile Studio truly lives up to its name.",
     highlight: "Can't tell it's not my original tooth",
+    avatar: "https://images.unsplash.com/photo-1463335361701-e90f4c5045d0?w=80&q=80",
   },
   {
     name: "Rahul Singhania",
@@ -48,6 +50,7 @@ const reviews = [
     date: "February 2025",
     text: "I'm three months into my aligner treatment and the progress is already visible. Dr. Aanya is meticulous about every adjustment. The clinic is spotless, the staff is wonderful, and the online appointment system makes scheduling a breeze. Would have given 5 stars but the waiting area gets a bit busy on weekends.",
     highlight: "Visible progress in just 3 months",
+    avatar: "https://images.unsplash.com/photo-1670110531916-41045e83cb0a?w=80&q=80",
   },
   {
     name: "Sunita Krishnamurthy",
@@ -56,6 +59,7 @@ const reviews = [
     date: "December 2024",
     text: "Everyone dreads root canals, but I can honestly say I felt almost nothing. Dr. Aanya's technique is exceptional — she numbed the area so well that I barely knew what was happening. The post-procedure care instructions were detailed and the follow-up call the next day was a lovely touch. Highly recommend!",
     highlight: "Felt almost nothing during the procedure",
+    avatar: "https://images.unsplash.com/photo-1674278882093-3870ef98e826?w=80&q=80",
   },
   {
     name: "Vikram Nambiar",
@@ -64,6 +68,7 @@ const reviews = [
     date: "April 2025",
     text: "Took my 6-year-old here for her first dental visit and I was worried she'd be scared. Ms. Priya was absolutely magical with her — showed her all the tools, let her sit in the chair, made it a fun adventure. My daughter actually asked when she can go back! This team understands kids.",
     highlight: "My daughter asked when she can go back!",
+    avatar: "https://images.unsplash.com/photo-1663560454891-9bdbdaaed84d?w=80&q=80",
   },
   {
     name: "Deepa Raghunathan",
@@ -72,6 +77,7 @@ const reviews = [
     date: "March 2025",
     text: "Had a cracked molar that needed a crown. Dr. Aanya recommended a zirconia crown and the shade matching was perfect — you genuinely cannot tell it apart from my natural teeth. The procedure took two visits as expected, both smooth. The clinic's EMI option made the cost very manageable.",
     highlight: "Shade matching is perfect",
+    avatar: "https://images.unsplash.com/photo-1526392195523-1f40e4e78117?w=80&q=80",
   },
 ];
 
@@ -197,10 +203,11 @@ export default function TestimonialsPage() {
                   <div className="flex items-center gap-3">
                     <div className="w-9 h-9 rounded-full overflow-hidden">
                       <Image
-                        src={`https://ui-avatars.com/api/?name=${encodeURIComponent(review.name)}&background=0d6e6e&color=fff&size=36`}
-                        width={36}
-                        height={36}
+                        src={review.avatar}
+                        width={80}
+                        height={80}
                         alt={review.name}
+                        className="w-full h-full object-cover object-top"
                       />
                     </div>
                     <div>

@@ -29,7 +29,7 @@ const staff = [
     name: "Dr. Rohan Mehta",
     role: "Associate Dentist",
     qual: "BDS, Diploma in Implantology",
-    avatar: "https://ui-avatars.com/api/?name=Rohan+Mehta&background=0D6E6E&color=fff&size=200",
+    avatar: "https://plus.unsplash.com/premium_photo-1672922646298-3afc6c6397c9?w=600&q=80",
     bio: "Dr. Rohan joined Smile Studio in 2019 and specialises in dental implants and oral surgery. His calm, methodical approach makes him a favourite with patients undergoing complex or multi-stage procedures.",
     funFact: "Certified in advanced implantology from the ITI (International Team for Implantology), Geneva.",
     specialty: "Implants & Oral Surgery",
@@ -38,7 +38,7 @@ const staff = [
     name: "Ms. Priya Nair",
     role: "Senior Dental Hygienist",
     qual: "Diploma in Dental Hygiene, 8 years exp.",
-    avatar: "https://ui-avatars.com/api/?name=Priya+Nair&background=C9974A&color=fff&size=200",
+    avatar: "https://plus.unsplash.com/premium_photo-1661606291719-baf88140760c?w=600&q=80",
     bio: "Priya leads all preventive care at Smile Studio — thorough cleanings, patient education sessions, and periodontal health assessments. Her warm, patient manner puts first-time visitors instantly at ease.",
     funFact: "Runs Smile Studio's free quarterly school dental screening programme across 6 schools in Koramangala.",
     specialty: "Preventive Care & Hygiene",
@@ -47,7 +47,7 @@ const staff = [
     name: "Ms. Kavya Reddy",
     role: "Patient Coordinator",
     qual: "B.Com, Certified Healthcare Administration",
-    avatar: "https://ui-avatars.com/api/?name=Kavya+Reddy&background=4A6C9B&color=fff&size=200",
+    avatar: "https://plus.unsplash.com/premium_photo-1702599106171-149621362015?w=600&q=80",
     bio: "Kavya is the warm first face you see at Smile Studio. She manages appointments, insurance queries, and ensures every patient journey — from first booking to follow-up call — is seamless and stress-free.",
     funFact: "Fluent in Kannada, Telugu, Hindi, and English. No patient ever feels lost or unheard!",
     specialty: "Patient Experience",
@@ -86,7 +86,7 @@ export default function TeamPage() {
           <div className={cn("grid lg:grid-cols-5 gap-10 bg-card border border-border rounded-3xl overflow-hidden hover:shadow-2xl hover:shadow-teal-900/10 transition-all duration-500 reveal", leadReveal.visible && "in-view")} style={{ transitionDelay: "100ms" }}>
             <div className="lg:col-span-2 relative">
               <Image
-                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&q=80"
+                src="https://plus.unsplash.com/premium_photo-1661778976948-0cbf766dc0e8?w=600&q=80"
                 alt="Dr. Aanya Sharma"
                 width={600}
                 height={700}
@@ -155,9 +155,9 @@ export default function TeamPage() {
                   <Image
                     src={member.avatar}
                     alt={member.name}
-                    width={200}
-                    height={200}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    width={600}
+                    height={400}
+                    className="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-card/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-5">
                     <p className="text-foreground text-sm font-medium">{member.funFact}</p>
