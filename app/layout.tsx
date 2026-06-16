@@ -22,8 +22,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://smile-care-studio.vercel.app/smileOgImage.png",
-        width: 1200,
-        height: 630,
+        width: 1731,
+        height: 909,
         alt: "Smile Studio — Premium Dental Care in Bangalore",
         type: "image/png",
       },
