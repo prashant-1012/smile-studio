@@ -6,6 +6,7 @@ import { Footer } from "@/components/layout/Footer";
 import { Toaster } from "@/components/ui/sonner";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://smile-care-studio.vercel.app"),
   title: {
     default: "Smile Studio — Premium Dental Care in Bangalore",
     template: "%s | Smile Studio",
@@ -24,6 +25,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: "Smile Studio — Premium Dental Care in Bangalore",
+        type: "image/png",
       },
     ],
     type: "website",
