@@ -12,6 +12,29 @@ export const metadata: Metadata = {
   },
   description:
     "Smile Studio is a premium private dental clinic in Koramangala, Bangalore, led by Dr. Aanya Sharma. We offer teeth whitening, implants, braces, root canal, and more.",
+  openGraph: {
+    title: "Smile Studio — Premium Dental Care in Bangalore",
+    description:
+      "Smile Studio is a premium private dental clinic in Koramangala, Bangalore, led by Dr. Aanya Sharma. We offer teeth whitening, implants, braces, root canal, and more.",
+    url: "https://smile-care-studio.vercel.app",
+    siteName: "Smile Studio",
+    images: [
+      {
+        url: "/smileOgImage.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Smile Studio — Premium Dental Care in Bangalore",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Smile Studio — Premium Dental Care in Bangalore",
+    description:
+      "Smile Studio is a premium private dental clinic in Koramangala, Bangalore, led by Dr. Aanya Sharma. We offer teeth whitening, implants, braces, root canal, and more.",
+    images: ["/smileOgImage.jpeg"],
+  },
 };
 
 export default function RootLayout({
