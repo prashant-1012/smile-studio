@@ -443,7 +443,7 @@ export default function HomePage() {
               <Link href="/contact">Contact Us</Link>
             </Button>
           </div>
-          <p className="text-teal-300 text-sm mt-6">
+          <p className="text-teal-100 text-sm mt-6">
             📞 +91 98400 12345 · Mon–Sat, 9 AM – 7 PM
           </p>
         </div>
