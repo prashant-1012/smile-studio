@@ -61,6 +61,7 @@ const timeline = [
   { year: "2019", title: "Digital Imaging Upgrade", desc: "Investment in digital X-ray systems and 3D cone beam CT imaging brings hospital-grade diagnostics to the clinic." },
   { year: "2022", title: "Clear Aligner Programme", desc: "Smile Studio launches its clear aligner service, adding a discreet orthodontic option. Active patient count crosses 800." },
   { year: "2024", title: "1,200+ Patients Milestone", desc: "A landmark year — over 1,200 patients treated. EMI-friendly payment plans introduced to make quality care even more accessible." },
+  { year: "2026", title: "14 Years of Trusted Care", desc: "Smile Studio marks 14 years in Koramangala, having now treated over 1,500 patients — guided by the same founding promise of comfort-first, transparent dental care." },
 ];
 
 export default function AboutPage() {
@@ -100,7 +101,7 @@ export default function AboutPage() {
               She opened Smile Studio on Residency Road with two chairs, one hygienist, and a firm philosophy — every patient walks out better informed, better cared for, and more comfortable than when they walked in. Word spread quickly.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              Today, Smile Studio is home to a team of four dedicated dental professionals, four fully equipped treatment chairs, and a patient community of over 1,200 families across Bangalore who trust us with their smiles.
+              Today, Smile Studio is home to a team of four dedicated dental professionals, four fully equipped treatment chairs, and a patient community of over 1,500 families across Bangalore who trust us with their smiles.
             </p>
             <Button asChild className="bg-primary text-primary-foreground hover:bg-primary/90">
               <Link href="/team">Meet Our Team <ArrowRight size={16} className="ml-2" /></Link>

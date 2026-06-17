@@ -97,13 +97,13 @@ export default function TeamPage() {
             <div className="lg:col-span-3 p-8 lg:p-12 flex flex-col justify-center">
               <div className="flex flex-wrap gap-2 mb-5">
                 <Badge className="bg-primary/10 text-primary border-0">Prosthodontist</Badge>
-                <Badge className="bg-accent/15 text-accent border-0">12 Years Experience</Badge>
+                <Badge className="bg-accent/15 text-accent border-0">14 Years Experience</Badge>
                 <Badge className="bg-emerald-100 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300 border-0">Founder</Badge>
               </div>
               <h2 className="font-display text-4xl font-bold text-foreground mb-1">Dr. Aanya Sharma</h2>
               <p className="text-primary font-medium mb-6">BDS, MDS — Prosthodontics · Manipal College of Dental Sciences</p>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Dr. Aanya Sharma founded Smile Studio in 2012 with a singular mission: to deliver hospital-grade dental care with the personalised warmth of a family practice. Her 12 years of experience span cosmetic dentistry, implantology, and complex oral rehabilitation.
+                Dr. Aanya Sharma founded Smile Studio in 2012 with a singular mission: to deliver hospital-grade dental care with the personalised warmth of a family practice. Her 14 years of experience span cosmetic dentistry, implantology, and complex oral rehabilitation.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-8">
                 Her gentle technique, meticulous attention to aesthetics, and ability to put even the most anxious patients at ease have earned her a reputation as one of Bangalore&apos;s most trusted prosthodontists.

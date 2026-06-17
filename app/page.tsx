@@ -58,8 +58,8 @@ function AnimatedCounter({ target, suffix = "" }: { target: number; suffix?: str
 
 /* ─── Data ─── */
 const stats = [
-  { value: 1200, suffix: "+", label: "Happy Patients" },
-  { value: 12, suffix: "", label: "Years Experience" },
+  { value: 1500, suffix: "+", label: "Happy Patients" },
+  { value: 14, suffix: "", label: "Years Experience" },
   { value: 15, suffix: "+", label: "Treatments Offered" },
   { value: 4.9, suffix: "★", label: "Google Rating", static: true },
 ];
@@ -168,7 +168,7 @@ export default function HomePage() {
               Starts Here
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed mb-8 max-w-lg">
-              At Smile Studio, we combine clinical excellence with genuine warmth — because great dental care should feel as good as it looks. Led by Dr. Aanya Sharma with 12 years of transforming smiles across Bangalore.
+              At Smile Studio, we combine clinical excellence with genuine warmth — because great dental care should feel as good as it looks. Led by Dr. Aanya Sharma with 14 years of transforming smiles across Bangalore.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 text-base shadow-lg shadow-teal-600/20">
@@ -190,7 +190,7 @@ export default function HomePage() {
                 <div className="flex items-center gap-1 text-amber-500">
                   {[...Array(5)].map((_, i) => <Star key={i} size={13} fill="currentColor" />)}
                 </div>
-                <p className="text-muted-foreground text-xs mt-0.5">1,200+ patients trust us</p>
+                <p className="text-muted-foreground text-xs mt-0.5">1,500+ patients trust us</p>
               </div>
             </div>
           </div>
@@ -340,7 +340,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="absolute -top-4 -right-4 bg-accent text-accent-foreground rounded-2xl px-5 py-3 shadow-lg">
-              <p className="text-2xl font-bold font-display">12+</p>
+              <p className="text-2xl font-bold font-display">14+</p>
               <p className="text-xs font-medium">Years Experience</p>
             </div>
           </div>
@@ -350,7 +350,7 @@ export default function HomePage() {
               The Smile Behind <span className="gradient-text">Smile Studio</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Dr. Aanya Sharma is a prosthodontist with over 12 years of experience transforming smiles across Bangalore. After completing her MDS from Manipal College of Dental Sciences, she founded Smile Studio with a singular vision.
+              Dr. Aanya Sharma is a prosthodontist with over 14 years of experience transforming smiles across Bangalore. After completing her MDS from Manipal College of Dental Sciences, she founded Smile Studio with a singular vision.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
               She is known for her gentle approach, meticulous attention to detail, and ability to put even the most anxious patients at ease — making every visit something to look forward to.

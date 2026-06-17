@@ -12,9 +12,9 @@
 ## Doctor
 - **Name:** Dr. Aanya Sharma
 - **Qualifications:** BDS, MDS (Prosthodontics)
-- **Experience:** 12 years
+- **Experience:** 14 years
 - **Photo:** https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&q=80
-- **Bio:** Dr. Aanya Sharma is a prosthodontist with over 12 years of experience transforming smiles across Bangalore. After completing her MDS from Manipal College of Dental Sciences, she founded Smile Studio with a singular vision — to make premium dental care accessible, comfortable, and even enjoyable. She is known for her gentle approach, meticulous attention to detail, and ability to put even the most anxious patients at ease.
+- **Bio:** Dr. Aanya Sharma is a prosthodontist with over 14 years of experience transforming smiles across Bangalore. After completing her MDS from Manipal College of Dental Sciences, she founded Smile Studio with a singular vision — to make premium dental care accessible, comfortable, and even enjoyable. She is known for her gentle approach, meticulous attention to detail, and ability to put even the most anxious patients at ease.
 
 ## Supporting Staff
 
@@ -84,6 +84,7 @@
 - **2019** — Invested in digital X-ray and 3D dental imaging equipment
 - **2022** — Launched clear aligner programme; crossed 800 active patients
 - **2024** — Crossed 1,200 patients milestone; introduced EMI-friendly payment plans
+- **2026** — 14 years of trusted care; crossed 1,500 patients milestone
 
 ## Core Values
 1. **Comfort First** — Every procedure is designed around patient comfort, not just clinical efficiency

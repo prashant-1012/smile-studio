@@ -36,7 +36,7 @@ A modern, responsive dental clinic website built with **Next.js 15 (App Router)*
 ## Features
 
 - Scroll-triggered reveal animations via `IntersectionObserver`
-- Animated counters on stat cards (1200+ patients, 12 years, etc.)
+- Animated counters on stat cards (1500+ patients, 14 years, etc.)
 - Dark mode support with system preference detection
 - Responsive layout across mobile, tablet, and desktop
 - Toast notifications via Sonner
