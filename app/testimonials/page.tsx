@@ -41,7 +41,7 @@ const reviews = [
     date: "January 2025",
     text: "After losing a tooth in an accident, I was terrified about implants. Dr. Rohan walked me through every step with such patience. The implant looks and feels completely natural — I keep forgetting it's not my original tooth! Smile Studio truly lives up to its name.",
     highlight: "Can't tell it's not my original tooth",
-    avatar: "https://images.unsplash.com/photo-1463335361701-e90f4c5045d0?w=80&q=80",
+    avatar: "https://images.unsplash.com/photo-1728141123512-87c415cecc9d?w=80&q=80",
   },
   {
     name: "Rahul Singhania",
@@ -59,7 +59,7 @@ const reviews = [
     date: "December 2024",
     text: "Everyone dreads root canals, but I can honestly say I felt almost nothing. Dr. Aanya's technique is exceptional — she numbed the area so well that I barely knew what was happening. The post-procedure care instructions were detailed and the follow-up call the next day was a lovely touch. Highly recommend!",
     highlight: "Felt almost nothing during the procedure",
-    avatar: "https://images.unsplash.com/photo-1674278882093-3870ef98e826?w=80&q=80",
+    avatar: "https://plus.unsplash.com/premium_photo-1661964274927-84559011dd89?w=80&q=80",
   },
   {
     name: "Vikram Nambiar",

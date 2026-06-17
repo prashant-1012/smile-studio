@@ -133,14 +133,14 @@ const testimonials = [
     rating: 5,
     text: "After losing a tooth in an accident, I was terrified about implants. Dr. Rohan walked me through every step with such patience. The implant looks and feels completely natural.",
     treatment: "Dental Implants",
-    avatar: "https://images.unsplash.com/photo-1463335361701-e90f4c5045d0?w=80&q=80",
+    avatar: "https://images.unsplash.com/photo-1728141123512-87c415cecc9d?w=80&q=80",
   },
   {
     name: "Sunita Krishnamurthy",
     rating: 5,
     text: "Everyone dreads root canals, but I felt almost nothing. Dr. Aanya's technique is exceptional. The follow-up call the next day was a lovely touch. Highly recommend!",
     treatment: "Root Canal Treatment",
-    avatar: "https://images.unsplash.com/photo-1674278882093-3870ef98e826?w=80&q=80",
+    avatar: "https://plus.unsplash.com/premium_photo-1661964274927-84559011dd89?w=80&q=80",
   },
 ];
 
