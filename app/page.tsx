@@ -207,7 +207,7 @@ export default function HomePage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
             </div>
-            <div className="absolute -bottom-5 -left-5 bg-card border border-border rounded-2xl px-5 py-4 shadow-xl backdrop-blur-sm">
+            <div className="absolute bottom-2 left-2 sm:-bottom-5 sm:-left-5 bg-card border border-border rounded-2xl px-4 sm:px-5 py-3 sm:py-4 shadow-xl backdrop-blur-sm max-w-[calc(100%-1rem)]">
               <p className="text-xs text-muted-foreground mb-1">Next available slot</p>
               <p className="font-semibold text-foreground text-sm">Today, 4:00 PM</p>
               <div className="flex items-center gap-1.5 mt-2">
@@ -215,10 +215,10 @@ export default function HomePage() {
                 <span className="text-xs text-emerald-600 dark:text-emerald-400">Accepting patients</span>
               </div>
             </div>
-            <div className="absolute -top-6 -right-6 w-16 h-16 rounded-full bg-card border border-border shadow-xl flex items-center justify-center p-2.5 animate-float">
+            <div className="absolute top-2 right-2 sm:-top-6 sm:-right-6 w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-card border border-border shadow-xl flex items-center justify-center p-2 sm:p-2.5 animate-float">
               <Image src="/icons/dental-implant_4357767.png" alt="Dental implants" width={44} height={44} className="object-contain" />
             </div>
-            <div className="absolute -bottom-6 -right-6 w-14 h-14 rounded-full bg-card border border-border shadow-xl flex items-center justify-center p-2 animate-float" style={{ animationDelay: "1.5s" }}>
+            <div className="absolute bottom-2 right-2 sm:-bottom-6 sm:-right-6 w-10 h-10 sm:w-14 sm:h-14 rounded-full bg-card border border-border shadow-xl flex items-center justify-center p-1.5 sm:p-2 animate-float" style={{ animationDelay: "1.5s" }}>
               <Image src="/icons/protection_4357525.png" alt="Trusted dental protection" width={38} height={38} className="object-contain" />
             </div>
           </div>
