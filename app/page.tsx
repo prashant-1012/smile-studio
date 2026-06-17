@@ -180,9 +180,9 @@ export default function HomePage() {
             </div>
             <div className="flex items-center gap-6 mt-10">
               <div className="flex -space-x-2">
-                {["Arjun+K", "Meera+I", "Sunita+K"].map((n) => (
-                  <div key={n} className="w-8 h-8 rounded-full border-2 border-background overflow-hidden">
-                    <Image src={`https://ui-avatars.com/api/?name=${n}&background=0d6e6e&color=fff&size=32`} width={32} height={32} alt={n} />
+                {testimonials.map((t) => (
+                  <div key={t.name} className="w-8 h-8 rounded-full border-2 border-background overflow-hidden">
+                    <Image src={t.avatar} width={32} height={32} alt={t.name} className="w-full h-full object-cover" />
                   </div>
                 ))}
               </div>
@@ -439,7 +439,7 @@ export default function HomePage() {
             <Button asChild size="lg" className="bg-white text-primary hover:bg-teal-50 px-8 text-base font-semibold shadow-xl">
               <Link href="/book">Book Appointment <ArrowRight size={18} className="ml-2" /></Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="px-8 text-base border-white/40 !text-white !bg-transparent hover:!bg-white/10">
+            <Button asChild size="lg" variant="outline" className="px-8 text-base !border-white/40 !text-white !bg-transparent hover:!bg-white/10 dark:!border-white/40 dark:!bg-transparent dark:hover:!bg-white/10">
               <Link href="/contact">Contact Us</Link>
             </Button>
           </div>
