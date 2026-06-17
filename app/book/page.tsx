@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
@@ -155,7 +156,10 @@ export default function BookPage() {
           {/* Step 2 — Select Date */}
           {step === 2 && (
             <div className="animate-fade-slide-up">
-              <h2 className="font-display text-2xl font-bold text-foreground mb-2">Choose your preferred date</h2>
+              <div className="flex items-center gap-3 mb-2">
+                <Image src="/icons/calendar_4357519.png" alt="" width={32} height={32} className="object-contain shrink-0" />
+                <h2 className="font-display text-2xl font-bold text-foreground">Choose your preferred date</h2>
+              </div>
               <p className="text-muted-foreground text-sm mb-7">We are open Monday to Saturday, 9 AM – 7 PM.</p>
               <div className="flex justify-center">
                 <div className="bg-card border border-border rounded-2xl p-6 shadow-sm">

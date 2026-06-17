@@ -126,18 +126,21 @@ const testimonials = [
     rating: 5,
     text: "I had always been self-conscious about my smile, but Dr. Aanya changed everything. The whitening was completely painless and the results were stunning — three shades whiter in a single session!",
     treatment: "Teeth Whitening",
+    avatar: "https://plus.unsplash.com/premium_photo-1689539137236-b68e436248de?w=80&q=80",
   },
   {
     name: "Meera Iyer",
     rating: 5,
     text: "After losing a tooth in an accident, I was terrified about implants. Dr. Rohan walked me through every step with such patience. The implant looks and feels completely natural.",
     treatment: "Dental Implants",
+    avatar: "https://images.unsplash.com/photo-1463335361701-e90f4c5045d0?w=80&q=80",
   },
   {
     name: "Sunita Krishnamurthy",
     rating: 5,
     text: "Everyone dreads root canals, but I felt almost nothing. Dr. Aanya's technique is exceptional. The follow-up call the next day was a lovely touch. Highly recommend!",
     treatment: "Root Canal Treatment",
+    avatar: "https://images.unsplash.com/photo-1674278882093-3870ef98e826?w=80&q=80",
   },
 ];
 
@@ -211,6 +214,12 @@ export default function HomePage() {
                 <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
                 <span className="text-xs text-emerald-600 dark:text-emerald-400">Accepting patients</span>
               </div>
+            </div>
+            <div className="absolute -top-6 -right-6 w-16 h-16 rounded-full bg-card border border-border shadow-xl flex items-center justify-center p-2.5 animate-float">
+              <Image src="/icons/dental-implant_4357767.png" alt="Dental implants" width={44} height={44} className="object-contain" />
+            </div>
+            <div className="absolute -bottom-6 -right-6 w-14 h-14 rounded-full bg-card border border-border shadow-xl flex items-center justify-center p-2 animate-float" style={{ animationDelay: "1.5s" }}>
+              <Image src="/icons/protection_4357525.png" alt="Trusted dental protection" width={38} height={38} className="object-contain" />
             </div>
           </div>
         </div>
@@ -391,10 +400,11 @@ export default function HomePage() {
                 <div className="flex items-center gap-3">
                   <div className="w-9 h-9 rounded-full overflow-hidden">
                     <Image
-                      src={`https://ui-avatars.com/api/?name=${encodeURIComponent(t.name)}&background=0d6e6e&color=fff&size=36`}
+                      src={t.avatar}
                       width={36}
                       height={36}
                       alt={t.name}
+                      className="w-full h-full object-cover"
                     />
                   </div>
                   <div>
